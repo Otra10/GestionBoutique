@@ -1,4 +1,4 @@
-package com.example.entites;
+package com.example.data.entites;
 
 public class Article {
     private String name;

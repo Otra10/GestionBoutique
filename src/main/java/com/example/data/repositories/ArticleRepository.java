@@ -1,9 +1,9 @@
-package com.example.repositories;
+package com.example.data.repositories;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.entites.Article;
+import com.example.data.entites.Article;
 
 public class ArticleRepository {
     private final List<Article> articles = new ArrayList<>();

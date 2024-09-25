@@ -2,8 +2,8 @@ package com.example.services;
 
 import java.util.List;
 
-import com.example.entites.Client;
-import com.example.repositories.ClientRepository;
+import com.example.data.entites.Client;
+import com.example.data.repositories.ClientRepository;
 import com.example.services.interfaces.IClientService;
 
 public class ClientService implements IClientService {

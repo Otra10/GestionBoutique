@@ -1,9 +1,9 @@
-package com.example.repositories;
+package com.example.data.repositories;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.entites.Client;
+import com.example.data.entites.Client;
 
 public class ClientRepository {
     private final List<Client> clients = new ArrayList<>();

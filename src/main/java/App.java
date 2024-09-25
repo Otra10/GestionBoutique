@@ -1,5 +1,5 @@
-import com.example.repositories.ClientRepository;
-import com.example.repositories.DebtRepository;
+import com.example.data.repositories.ClientRepository;
+import com.example.data.repositories.DebtRepository;
 import com.example.services.ClientService;
 import com.example.services.DebtService;
 import com.example.views.BoutiquierView;

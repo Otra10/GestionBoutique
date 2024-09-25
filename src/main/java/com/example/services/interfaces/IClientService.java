@@ -2,7 +2,7 @@ package com.example.services.interfaces;
 
 import java.util.List;
 
-import com.example.entites.Client;
+import com.example.data.entites.Client;
 
 public interface IClientService {
     void createClient(String surname, String telephone, String address, boolean hasAccount);

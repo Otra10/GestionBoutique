@@ -1,9 +1,9 @@
-package com.example.repositories;
+package com.example.data.repositories;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.entites.Debt;
+import com.example.data.entites.Debt;
 
 public class DebtRepository {
     private final List<Debt> debts = new ArrayList<>();

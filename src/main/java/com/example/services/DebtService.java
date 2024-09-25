@@ -3,8 +3,8 @@ package com.example.services;
 import java.util.Date;
 import java.util.List;
 
-import com.example.entites.Debt;
-import com.example.repositories.DebtRepository;
+import com.example.data.entites.Debt;
+import com.example.data.repositories.DebtRepository;
 import com.example.services.interfaces.IDebtService;
 
 public class DebtService implements IDebtService {

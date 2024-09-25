@@ -1,21 +1,33 @@
-package com.example.entites;
+package com.example.data.entites;
 
 public class Client {
+    private int id;
     private String surname;
     private String telephone;
     private String address;
-    private boolean hasAccount;
-    private double totalDebt;
 
-    public Client(String surname, String telephone, String address, boolean hasAccount, double totalDebt) {
+
+    public Client(int id , String surname, String telephone, String address) {
+        this.id = id;
         this.surname = surname;
         this.telephone = telephone;
         this.address = address;
-        this.hasAccount = hasAccount;
-        this.totalDebt = totalDebt;
+
+    }
+
+    public Client(String surname2, String telephone2, String address2, boolean hasAccount, double d) {
+        //TODO Auto-generated constructor stub
     }
 
     // Getters et Setters
+    public int getID() {
+        return id;
+    }
+
+    public void setID(int id) {
+        this.id = id;
+    }
+
     public String getSurname() {
         return surname;
     }
@@ -40,19 +52,4 @@ public class Client {
         this.address = address;
     }
 
-    public boolean isHasAccount() {
-        return hasAccount;
-    }
-
-    public void setHasAccount(boolean hasAccount) {
-        this.hasAccount = hasAccount;
-    }
-
-    public double getTotalDebt() {
-        return totalDebt;
-    }
-
-    public void setTotalDebt(double totalDebt) {
-        this.totalDebt = totalDebt;
-    }
 }

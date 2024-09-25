@@ -2,8 +2,8 @@ package com.example.services;
 
 import java.util.List;
 
-import com.example.entites.Article;
-import com.example.repositories.ArticleRepository;
+import com.example.data.entites.Article;
+import com.example.data.repositories.ArticleRepository;
 import com.example.services.interfaces.IArticleService;
 
 public class ArticleService implements IArticleService {
