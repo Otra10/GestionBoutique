@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    private static final String URL = "jdbc:postgresql://localhost:5432/your_database";
-    private static final String USER = "your_username";
-    private static final String PASSWORD = "your_password";
+    private static final String URL = "jdbc:postgresql://localhost:5432/gestionRV";
+    private static final String USER = "postgres";
+    private static final String PASSWORD = "Famille1";
 
     // Méthode pour obtenir une connexion à la base de données
     public static Connection getConnection() throws SQLException {
